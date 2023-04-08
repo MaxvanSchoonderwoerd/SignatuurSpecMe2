@@ -190,6 +190,10 @@ blockquote::after {
     max-width: 90vw;
   }
 
+  p {
+    margin-top: 1.2rem;
+  }
+
   .gridSplit {
     grid-template-columns: 1fr;
     grid-template-rows: 3fr 1fr;
