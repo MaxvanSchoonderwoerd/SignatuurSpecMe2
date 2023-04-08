@@ -192,7 +192,7 @@ blockquote::after {
 
   .gridSplit {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 3fr 1fr;
     place-items: center;
     justify-content: center;
     align-items: unset;
@@ -202,6 +202,11 @@ blockquote::after {
   .right,
   .left {
     width: unset;
+  }
+
+  blockquote {
+    margin-top: 6rem;
+    margin-bottom: 8rem;
   }
 
   .sectionRetro {
